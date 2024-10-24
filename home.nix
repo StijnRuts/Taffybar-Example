@@ -11,5 +11,7 @@
     };
   };
 
+  services.xembed-sni-proxy.enable = true;
+
   home.stateVersion = "24.05";
 }

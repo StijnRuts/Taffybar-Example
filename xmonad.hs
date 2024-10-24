@@ -13,6 +13,7 @@ main = xmonad $ docks $ ewmh $ pagerHints $ def
   , keys = \c -> azertyKeys c <> keys def c
   , startupHook = do
       spawnOnce "status-notifier-watcher"
+      spawnOnce "xembedsniproxy"
       spawnOnce "taffybar"
       -- spawnOnce "trayer"
       spawnOnce "nm-applet"
