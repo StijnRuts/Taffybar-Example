@@ -12,7 +12,6 @@ main = simpleTaffybar $ def
   { startWidgets = [ workspacesNew def ]
   , endWidgets =
     [ textClockNewWith def
-    , sniTrayThatStartsWatcherEvenThoughThisIsABadWayToDoIt
     , sniTrayNew
     ]
   }

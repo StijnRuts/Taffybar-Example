@@ -12,7 +12,7 @@
     dmenu
     taffybar
     haskellPackages.status-notifier-item
-    trayer
     networkmanagerapplet
+    pa_applet
   ];
 }

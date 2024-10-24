@@ -14,6 +14,6 @@ main = xmonad $ docks $ ewmh $ pagerHints $ def
   , startupHook = do
       spawnOnce "status-notifier-watcher"
       spawnOnce "taffybar"
-      -- spawnOnce "trayer"
       spawnOnce "nm-applet"
+      spawnOnce "pa-applet"
   }
